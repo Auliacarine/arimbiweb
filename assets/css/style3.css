@@ -167,6 +167,21 @@ section.decsription {
 
 }
 
+body {
+    background-image: url("../image/Ellipse\ 52.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 600px;
+    max-width: 100%;
+    height: 100vh;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      body {
+        background-color: none ;
+      }
+  }
+
 /* :::::::::::::: END SECTION menu ::::::::::::::*/
 
 /*:::::::::::::::: START Table::::::::::::::*/
@@ -305,4 +320,3 @@ section.footeer{
 }
 
 /* :::::::::::::: END FOOTER ::::::::::::::*/
-
