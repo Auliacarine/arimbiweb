@@ -1,0 +1,944 @@
+body {
+    background-image: url("../image/Ellipse\ 53.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 600px;
+    max-width: 100%;
+    height: 100vh;
+  }
+  
+  @media only screen and (max-width: 600px) {
+      body {
+        background-image: none !important;
+      }
+  }
+  
+  .content-fluid {
+      padding-left: 50px !important;
+      padding-right: 50px !important ;
+  }
+  /* :::::::::::::: START NAVIGATION ::::::::::::::*/
+  
+  nav.navbar {
+      padding-left: 35px;
+      padding-right: 27px;
+      
+  }
+  
+  .navbar-brand {
+      margin: 0px;
+  }
+  
+  nav .navbar-nav li a.dropdown-item:hover {
+      color: #B0DEFF;
+      background: none;
+}
+      
+  
+  nav .navbar-nav li {
+      padding-right: 3px;
+  }
+  
+  nav .navbar-nav li a {
+      color: black;
+      font-size: 20px;
+  }
+  
+  nav .navbar-nav li .nav-link:hover {
+    color: #205295 !important;
+    font-weight: 600;
+  }
+  
+  
+  
+  /* :::::::::::::: END NAVIGATION ::::::::::::::*/
+section.decsription {
+    margin-top: 110px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: black;
+}
+
+.bg-transparent.scrolled {
+    background: #FFFF !important;
+    shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+.desc1 {
+    font-size: 25px;
+    text-align: center; 
+    color: black;
+    font-weight: 600;
+    line-height: 48px;
+    padding-left: 20px;
+}
+
+.desc2 {
+    font-size: 20px;
+    text-align: left; 
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 48px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+.desc3 {
+    font-size: 20px;
+    text-align: center; 
+    color: black;
+    padding-top: -5px;
+    padding-bottom: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+.p {
+    font-size: 35px;
+    text-align: left; 
+    color: black;
+    padding-top: -2px;
+    padding-bottom: 25px;
+    line-height: 21px;
+    font-weight: 200px;
+    padding-left: 22px;
+}
+
+
+ /* :::::::::::::: start desc PMI ::::::::::::::*/
+.pengertian1 {
+    font-size: 25px;
+    text-align: left; 
+    color: black;
+    font-weight: 600;
+    line-height: 48px;
+    padding-left: 8px;
+}
+
+.pengertian2 {
+    font-size: 23px;
+    text-align: left; 
+    color: black;
+    font-weight: 500;
+    line-height: 30px;
+    padding-left: 8px;
+    padding-bottom: 20%;
+}
+/* :::::::::::::: end desc PMI ::::::::::::::*/
+
+/* :::::::::::::: start button pmi ::::::::::::::*/
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 0px;
+    border-radius: 25px;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ffff;
+  }
+  
+  .button1:hover {
+    background-color: #205295;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ffff;
+  }
+  
+  .button2:hover {
+    background-color: #205295;
+    color: white;
+  }
+/* :::::::::::::: start button pmi ::::::::::::::*/
+/* :::::::::::::: start card pmi ::::::::::::::*/
+
+.card-title-sebelah {
+    margin-left: 70%;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: -0px;
+}
+.card-title-crd {
+    margin-right: 50%;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: -0% !important;
+   
+}
+.card-text-nemu {
+    font-size: 17px;
+    font-weight: 60;
+    color: black;
+    margin-bottom: 2%;
+
+}
+
+.text-muted-last {
+    color: black;
+}
+
+.buttondc {
+    margin-top: -20%;
+    margin-bottom: 50px;
+}
+
+.card-h-100 {
+    width: 106px;
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* :::::::::::::: start page not found pmi ::::::::::::::*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+.body {
+    background: linear-gradient(45deg, #8500ff, #5acaff);
+    height: 100vh;
+}
+
+#container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../image/p404.png"),#151729;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+
+}
+
+#container .content {
+    max-width: 600px;
+    text-align: center;
+}
+
+#container .content h2 {
+    font-size: 45px;
+    color:#ffff;
+    line-height: 1em;
+}
+
+#container .content h4 {
+    position:relative;
+    font-size: 600;
+    margin-bottom: 20px;
+    color: #111;
+    font-weight: 600;
+    background: #FFFF;
+    padding: 10px 20px;
+    display: inline-block
+
+}
+
+/* :::::::::::::: end page not found pmi ::::::::::::::*/
+
+/* :::::::::::::: start page box tentang arimbi  ::::::::::::::*/
+
+.card-header-awal {
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: black;
+}
+
+.card-text-desk {
+    color: black
+}
+/* :::::::::::::: end page box tentang arimbi  ::::::::::::::*/
+
+/* :::::::::::::: start page box tentang arimbi2  ::::::::::::::*/
+
+section.decsription {
+    margin-top: 150px;
+    margin-bottom: 40px;
+    height: 100;
+}
+
+.deskawal1 {
+    font-size: 40px;
+    color: black;
+
+}
+
+.deskawal2 {
+    font-size: 30px;
+    color:black
+}
+
+.card-title {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.card-text {
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.col-sm-6 {
+    margin-bottom: 60px;
+}
+
+.card-title2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.card-title1 {
+    margin-left: 200px;
+    color: black;
+}
+
+.pe {
+    font-size: 25px;
+    color: #111;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* :::::::::::::: end desc pusat hubungui ::::::::::::::*/
+
+/* :::::::::::::: start desc pusat hubungui ::::::::::::::*/
+section.decsription {
+    margin-top: 110px;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: black;
+}
+.desc1 {
+    font-size: 25px;
+    text-align: left; 
+    color: black;
+    font-weight: 600;
+    line-height: 68px;
+    padding-left: 10px;
+}
+/* card-bantuan */
+.bantuan1 {
+    margin-left: 900%;
+    margin-right:50%;
+    margin-top: 0%;
+    height: 0px;
+
+}
+
+.card-body ul.b li a {
+  color: black;
+  font-weight: 500;
+}
+
+.card-body ul.b li a:hover {
+  color: black;
+  font-weight: 600;
+}
+
+.penjelasan {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 25%;
+    margin-top: -27%;
+
+}
+
+.dek1 {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 25%;
+    margin-top: -68%;
+    margin-bottom: 30%;
+}
+
+.list1 {
+  margin-left: 300px;
+  margin-right: 70px;
+  padding-top: -5px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 120px;
+  margin-bottom: -70%;
+  text-align: left;
+  
+}
+.list2 {
+    font-size: 20px;
+    margin-left: 300px;
+    text-align: left;
+    margin-top: -2%;
+    margin-bottom: -50%;
+    margin-top: 120px;
+ 
+}
+
+.hijauness {
+  font-size: 21px;
+  font-weight: 400;
+  margin-left: 310px;
+  margin-top: -390px;
+}
+
+.listmembuka {
+  margin-left: 295px;
+}
+
+.biruness {
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.rabbit {
+  margin-left: 310px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.kuchenk {
+  margin-left: 310px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.kepokmasperiangan {
+  margin-left: 300px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.pdpasar {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.taki {
+  margin-left: 310px;
+  color: black;
+  font-size: 18px;
+}
+
+.bantuanrumahsakit {
+  margin-left: 300px;
+}
+/* :::::::::::::: End desc ::::::::::::::*/
+/* :::::::::::::: start list box::::::::::::::*/
+ul.a {
+    list-style-type: circle;
+  }
+  
+  ul.b {
+    list-style-type: square;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+/* :::::::::::::: END list box ::::::::::::::*/
+/* :::::::::::::: start desc bantuan arimbi ::::::::::::::*/
+.pusat {
+  margin-left: -4%;
+  margin-right: 20%;
+}
+
+.desck-content-fluid {
+  margin-left: 20px;
+  margin-right: 150px;
+  margin-bottom: 0px;
+}
+/* :::::::::::::: end desc bantuan hubungui ::::::::::::::*/
+
+/* :::::::::::::: start desc pusat hubungui ::::::::::::::*/
+
+.foto1 {
+  width: 200;
+  height: 305px;
+  margin-left: 280px;
+  margin-right: 120px;
+  z-index: 1;
+  position: relative;
+  top: -190px;
+}
+
+.dess123 {
+    font-size: 27px;
+    font-weight: 700;
+    margin-left: 90px;
+    padding-bottom: -170%;
+    font-weight: 50px;
+    font-weight: 40px !important; 
+}
+
+.dess2 {
+    margin-left: -50px;
+    text-align: center;
+    
+}
+
+.bantuanlg {
+    padding-bottom: 40%;
+    margin-top: -170px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+ /* :::::::::::::: START SECTION Table Data ATCS ::::::::::::::*/
+section.visual{
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.card-h{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: initial;   
+}
+
+@media only screen and (max-width: 600px) {
+  .card-h {
+    width: 300px !important;
+  }
+}
+
+.card-judul{
+  margin: -20px -20px;
+}
+
+.titlejml{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.tbdata {
+  max-height: 500px;
+  overflow: auto;
+  display:inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .tbdata {
+    width: 280px !important;
+  }
+}
+
+.tbdata table {
+  border-radius: 10px !important;
+  border-spacing: 0px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 20%);
+}
+
+.tbdata table th, td {
+  font-weight: 200;
+  line-height: 36px;
+  color: #000000;
+}
+
+.tbdata table tr:hover {
+  background-color: #F6F6F6;
+}
+
+.has-search2 {
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .has-search2 {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+}
+
+.has-search2 .form-control {
+  padding-right: 2.375rem;
+  border: 2px solid #000000; 
+  border-radius: 8px;
+}
+
+.has-search2 .form-control-feedback2 {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  color: #000000;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  border: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .has-search2 .form-control-feedback2 {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .has-search2 .form-control-feedback2 {
+    width: 70% !important;
+    padding: 0px !important;
+    padding-left: 50% !important;   
+  }
+}
+/* :::::::::::::: END SECTION Table Data ::::::::::::::*/
+
+/* :::::::::::::: START SECTION Table Data ATCS ::::::::::::::*/
+
+.atcs {
+  font-size: 25px;
+  text-align: left; 
+  color: black;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.atcs2 {
+  font-size: 21px;
+  text-align: left; 
+  color: black;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.attcs {
+  font-size: 80px;
+  color: black;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+
+
+.satu {
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  padding-top: 40px;
+}
+
+.card-text45 {
+  font-size: 18px;
+  color: black;
+
+}
+
+.card-text45 {
+  color: black;
+}
+
+.card-title-lima {
+  color: black;
+}
+/* :::::::::::::: end SECTION Table Data ATCS ::::::::::::::*/
+
+/* :::::::::::::: START SECTION card golongandarah ::::::::::::::*/
+
+.card-header {
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.card-titlegol {
+  text-align: left;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+.card-text5 {
+  color: black;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.boxarimbi12 {
+  margin-bottom: 90px  !important;
+  margin-top: -30px;
+  padding-bottom: 30px !important;
+}
+/* :::::::::::::: end SECTION card golongan darah PMI ::::::::::::::*/
+/* :::::::::::::: START SECTION maps PMI ::::::::::::::*/
+
+.card-p {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 1200px;
+  margin-top: 70px;
+}
+
+.card-pmi {
+  height: 330px;
+  width: 550px;
+  margin-left: 40px;
+}
+
+.sm2 {
+  margin-bottom: 700px;
+}
+
+.titledesc {
+  color: black;
+  text-align: left;
+}
+
+.bodypmi {
+  text-align: left;
+  color: black;
+}
+
+.limaenam {
+ margin-left: -14px;
+}
+
+.tujuhdelapan {
+  margin-left: 63px;
+  
+}
+
+.sembilan {
+  margin-left: 60px;
+
+}
+
+.sepuluh {
+  margin-left: 80px;
+  margin-right: 50px;
+}
+
+.hijau {
+  margin-right: 2px;
+ 
+}
+
+.ungu {
+  margin-left: 62px;
+  margin-top: -10px;
+  line-height: 20px;
+
+}
+
+.rounded-start {
+ margin-left: 70px;
+ margin-top: 50px;
+ max-width: 100px !important;
+ max-height: 100px !important;
+}
+
+.biru {
+  margin-left: 20px;
+  ;
+
+}
+
+.kuning {
+  margin-left: 20px;
+  margin-top: -14px;
+}
+
+.putih {
+  margin-left: 13px;
+  margin-top: -13px;
+
+}
+.hitam {
+  margin-left: 13px;
+  margin-top: -14px;
+}
+
+.merah {
+  margin-left: 15px;
+  margin-top: -14px;
+}
+
+.coklat {
+  margin-left: 20px;
+  margin-top: -14px;
+}
+
+.krem {
+  margin-left: 20px;
+  margin-top: -14px;
+}
+
+.golongandrh {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 20px !important;
+  height: 300px;
+  
+
+}
+.boxgolongan {
+  height: 340px;
+  margin-top: -20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 10px !important;
+}
+
+.boxgolongan2 {
+  margin-left: 630px;
+  margin-top: -360px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 10px !important;
+}
+
+.ftpmi img.ftpmii{
+  padding: 40px 10px 0px ;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+.pengertianpmi {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* :::::::::::::: end SECTION maps PMI ::::::::::::::*/
+/* CSS Konten Kepokmas */
+h5 {
+  line-height: 30px !important;
+  margin-left: -70px;
+}
+
+.card-title23 {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+}
+
+.card-textlima {
+  font-size: 12px;
+}
+
+.text-button {
+  color: #919191;
+}
+
+.text-button:hover {
+  color: #B0DEFF;
+}
+
+section.pagin{
+  padding-left: 22px;
+  padding-bottom: 50px;
+}
+
+nav .pagination{
+  padding-bottom: 20px;
+  position: absolute;
+  left: 45%;
+}
+
+nav ul.pagination li.page-item a.page-link{
+  color: #000000;
+  font-weight: 600;
+}
+
+nav ul.pagination li.page-item a.page-link:hover:not(.active){
+  background-color: #B0DEFF;
+}
+/* CSS Konten Kepokmas */
+
+.pengertian89 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pengertian90 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pengertian91 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.pe1 {
+  font-size: 21px;
+  margin-top: 40px;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+.boxbawaharimbi {
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logoarimbi1 {
+  margin-left: 800px !important;
+  margin-top: -280px !important;
+  width: 180px;
+  height: 280px;
+  margin-bottom: 40px;
+}
+

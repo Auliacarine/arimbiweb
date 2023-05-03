@@ -8,7 +8,9 @@
     <title>Puskesmas</title>
 
         <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style2.css">
+        <link rel="stylesheet" href="assets/css/stylettg.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
@@ -18,6 +20,9 @@
 
         <!-- MDB -->
         <link rel="stylesheet" href="assets/css/mdb.min.css" />
+
+        <!-- JS -->
+        <script src="./assets/js/script.js"></script>
 
       </head>
       <body>
@@ -80,3 +85,395 @@
             </nav>
             
             <!--::: End Navigation Bar :::-->
+
+            <!-- Content kepokmas -->
+            <div class="container" id="intro">
+              <div class="d-flex" style="padding-top: 10%; padding-right: 5%;">
+                <div class="p-2 flex-grow-1"></div>
+                <div class="p-2"><a href="#" class="text-button">Kepokmas/</a></div>
+                <div class="p-2"><a href="#" class="text-button">DSS</a></div>
+              </div>
+
+                <div class="d-flex">
+                  <div class="p-2 flex-grow-1" style="margin-left: -60px;">
+                    <h2>Daftar Harga Kebutuhan Pokok (KEPOKMAS) Kota Bandung</h2>
+                    <h5>Data kebutuhan pokok masyarakat yang ditampilkan adalah harga rata rata dari harga yang terdapat di beberapa pasar yang dikelola oleh PD. Pasar Bermanrtabat Kota Bandung</h5>
+                  </div>
+                  <div class="p-2"></div>
+                  <div class="p-2"></div>
+                </div>
+            </div>
+            <!-- End Content kepokmas -->
+
+            <!-- Button Keterangan dan filter -->
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <h5> Keterangan:</h5>
+                  <button type="button" class="btn btn-danger btn-rounded">Turun</button>
+                  <button type="button" class="btn btn-success btn-rounded">Naik</button>
+                  <button type="button" class="btn btn-secondary btn-rounded">Stabil</button>
+                </div>
+
+                <div class="col-6">
+                  <h5>Filter:</h5>
+                  <div class="d-flex flex-wrap">
+                    <div class="p-2">
+                      <form action="/action_page.php">
+                        <input type="date" id="birthday" name="birthday">
+                      </form>
+                    </div>
+                    <div class="p-2"><input type="text" placeholder="Seluruh Pasar" style="width: 138px;"></div>
+                    <div class="p-2">
+                      <div class="btn-group shadow-0">
+                        <button type="button" class="btn btn-light dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                          Urutkan
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Naik</a></li>
+                          <li><a class="dropdown-item" href="#">Turun</a></li>
+                          <li><a class="dropdown-item" href="#">Stabil</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Button Keterangan dan filter -->
+
+            <!-- Card kepokmas -->
+            <div class="container" style="padding-top: 3%;">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/cabe hijau.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Cabe Hijau</p>
+                          <p class="card-textlima">Rp. 15.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/cabe kriting.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Cabe Kriting</p>
+                          <p class="card-textlima">Rp. 20.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/cabe merah.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Cabe Merah</p>
+                          <p class="card-textlima">Rp. 25.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/cabe rawit.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Cabe Rawit</p>
+                          <p class="card-textlima">Rp. 20.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/daging ayam ras.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Daging Ayam</p>
+                          <p class="card-textlima">Rp. 40.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/daging sapi.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Daging Sapi</p>
+                          <p class="card-textlima">Rp. 80.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/garem bata.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Garam Bata</p>
+                          <p class="card-textlima">Rp. 12.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/garem 200gr.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Garam</p>
+                          <p class="card-textlima">Rp. 14.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/gulapasir.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Gula Pasir</p>
+                          <p class="card-textlima">Rp. 20.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/ikan kembung.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Ikan Kembung</p>
+                          <p class="card-textlima">Rp. 20.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/ikan olahan.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Ikan Olahan</p>
+                          <p class="card-textlima">Rp. 35.000/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card" style="width: 100%;">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <img src="./assets/image/indomi ayam bwang.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
+                      </div>
+                      <div class="flex-grow">
+                        <div class="card-body">
+                          <p class="card-title23">Indomie Ayam Bawang</p>
+                          <p class="card-textlima">Rp. 3.500/ Kg</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                    <div class="d-flex flex-nowrap">
+                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
+                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">Lihat</button></div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <!-- End card kepokmas -->
+
+            <section class="pagin content-fluid" style="margin-top: 20px;">
+              <nav aria-label="Page navigation example">
+                  <ul class="pagination ms-auto">
+                  <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="organisasi.html">1</a></li>
+                  <li class="page-item"><a class="page-link" href="organisasi2.html">2</a></li>
+                  <li class="page-item"><a class="page-link" href="organisasi3.html">3</a></li>
+                  <li class="page-item"><a class="page-link" href="organisasi4.html">4</a></li>
+                  <li class="page-item"><a class="page-link" href="organisasi5.html">5</a></li>
+                  <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      </a>
+                  </li>
+                  </ul>
+              </nav>
+            
+            <div class="container">
+              <p style="float: right; padding-top: 40px;">(Sumber Data: PD. Pasar Bermartabat Kota Bandung)</p>
+            </div>
+    
+
+   
+   
+<!-- MDB -->
+<script type="text/javascript" src="assets/js/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- MDB -->
+
+<script>
+$(window).scroll(function(){
+$('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+});
+
+$(document).ready(function() {
+$('#myCarousel').carousel({
+  interval: 10000
+})
+});
+</script>
+
+          <!-- Java Script -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+          <script type="text/javascript">
+              $(function() {
+                  $('#datepicker').datepicker();
+              });
+          </script>
+          
+  </body>
+</html>
+
+
+    
