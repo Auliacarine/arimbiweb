@@ -41,7 +41,7 @@ body {
   }
   
   nav .navbar-nav li .nav-link:hover {
-    color: white !important;
+    color: #205295 !important;
   }
   
   
@@ -101,6 +101,11 @@ body {
       margin-top: 70px !important;   
   }
   
+  @media only screen and (max-width: 600px) {
+    .vectorawal {
+      width: 50% !important;
+    }
+}
   .homeawal {
     margin-top: -26%; 
     margin-bottom: 40px;

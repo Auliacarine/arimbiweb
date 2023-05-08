@@ -57,6 +57,7 @@ section.decsription {
     margin-bottom: 10px;
     font-weight: 200;
     color: black;
+    
 }
 
 .bg-transparent.scrolled {
@@ -115,6 +116,12 @@ section.decsription {
     padding-left: 8px;
 }
 
+.cardgda {
+  margin-top: -360px !important;
+}
+.cardgd {
+  margin-top: -30px !important;
+}
 .pengertian2 {
     font-size: 23px;
     text-align: left; 
@@ -122,7 +129,8 @@ section.decsription {
     font-weight: 500;
     line-height: 30px;
     padding-left: 8px;
-    padding-bottom: 20%;
+    padding-bottom: 10px;
+    
 }
 /* :::::::::::::: end desc PMI ::::::::::::::*/
 
@@ -281,7 +289,7 @@ section.decsription {
 section.decsription {
     margin-top: 150px;
     margin-bottom: 40px;
-    height: 100;
+    height: 100%;
 }
 
 .deskawal1 {
@@ -332,6 +340,7 @@ section.decsription {
     margin-bottom: 30px;
 }
 
+
 /* :::::::::::::: end desc pusat hubungui ::::::::::::::*/
 
 /* :::::::::::::: start desc pusat hubungui ::::::::::::::*/
@@ -351,11 +360,37 @@ section.decsription {
 }
 /* card-bantuan */
 .bantuan1 {
-    margin-left: 900%;
+    margin-left: 800% !important;
     margin-right:50%;
-    margin-top: -9%;
+    margin-top: -76px;
     height: 0px;
 
+}
+
+.bantuan66 {
+  margin-top: -650px;
+  margin-bottom: 70px I !important;
+  
+}
+
+
+.desc19 {
+font-size: 25px;
+font-weight: 600;
+margin-left: 7px;
+color: black;
+margin-top: 130px;
+}
+
+.pusat {
+  color: black;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .bantuan1 {
+    width: 300px !important;
+  }
 }
 
 .card-body ul.b li a {
@@ -409,12 +444,14 @@ section.decsription {
 .hijauness {
   font-size: 21px;
   font-weight: 400;
-  margin-left: 310px;
-  margin-top: -150px;
+  margin-left: 370px;
+  margin-top: -400px;
+  color: #000000;
 }
 
 .listmembuka {
-  margin-left: 295px;
+  margin-left: 360px;
+  color: black;
 }
 
 .biruness {
@@ -424,12 +461,16 @@ section.decsription {
 }
 
 .rabbit {
-  margin-left: 310px;
+  margin-left: 360px;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+  color: black;
 }
 
+.pusathubungi {
+  margin-bottom: 130px;
+}
 .kuchenk {
   margin-left: 310px;
   font-size: 22px;
@@ -443,18 +484,23 @@ section.decsription {
 }
 
 .pdpasar {
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 20px;
+  color: #000000;
+  margin-bottom: 240px;
 }
 
 .taki {
-  margin-left: 310px;
+  margin-left: 370px;
   color: black;
   font-size: 18px;
 }
 
 .bantuanrumahsakit {
-  margin-left: 300px;
+  margin-left: 370px;
+  color: black;
+  font-size: 25px;
+  margin-bottom: 170px;
 }
 /* :::::::::::::: End desc ::::::::::::::*/
 /* :::::::::::::: start list box::::::::::::::*/
@@ -495,31 +541,40 @@ ul.a {
 .foto1 {
   width: 200;
   height: 305px;
-  margin-left: 280px;
+  margin-left: 320px;
   margin-right: 120px;
   z-index: 1;
   position: relative;
   top: -100px;
+  margin-top: -110px;
 }
+
+@media only screen and (max-width: 600px) {
+  .foto1 {
+    top: 2900px;
+    width: 35%;
+  }
+}
+
 
 .dess123 {
     font-size: 27px;
     font-weight: 700;
-    margin-left: 90px;
+    margin-left: 440px;
     font-weight: 40px !important; 
     margin-top: 110px;
+    color: black;
+    margin-top: -280px;
    
 }
-
 .dess2 {
-    margin-left: -50px;
+    margin-left: 150px;
     text-align: center;
-    margin-bottom: 80px;
-    
+    color: black;
 }
 
 .bantuanlg {
-    padding-bottom: 40%;
+    padding-bottom: 100px;
     margin-top: -170px;
 }
 
@@ -542,6 +597,7 @@ section.visual{
   word-wrap: break-word;
   background-color: #fff;
   background-clip: initial;   
+  margin-top: -470px !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -688,6 +744,19 @@ section.visual{
 .card-title-lima {
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .rew {
+    width: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .limabelas{
+    width: 300px !important;
+  }
+}
+
 /* :::::::::::::: end SECTION Table Data ATCS ::::::::::::::*/
 
 /* :::::::::::::: START SECTION card golongandarah ::::::::::::::*/
@@ -721,18 +790,20 @@ section.visual{
 /* :::::::::::::: end SECTION card golongan darah PMI ::::::::::::::*/
 /* :::::::::::::: START SECTION maps PMI ::::::::::::::*/
 
-.card-p {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  width: 1200px;
-  margin-top: 70px;
+.card-paw {
+  margin-left: 4px !important;
+  width: 1250px;
+  margin-top: 70px !important;
 }
+
 
 .card-pmi {
   height: 330px;
   width: 550px;
   margin-left: 40px;
 }
+
+
 
 .sm2 {
   margin-bottom: 700px;
@@ -751,6 +822,8 @@ section.visual{
 .limaenam {
  margin-left: -14px;
 }
+
+
 
 .tujuhdelapan {
   margin-left: 63px;
@@ -856,6 +929,7 @@ section.visual{
   color: black;
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 /* :::::::::::::: end SECTION maps PMI ::::::::::::::*/
@@ -932,7 +1006,7 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
 
 .boxbawaharimbi {
   margin-left: 300px;
-  margin-top: 350px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
@@ -944,28 +1018,277 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   margin-bottom: 40px;
 }
 
- section {
-        height: 25vh;
-        width: auto;
-    }
+ 
 
-    .body-section {
-        background-color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+/* :::::::::::::: start SECTION rumah sakit ::::::::::::::*/
 
-    .box-white {
-        background-color: #fff;
-        border: 1px solid #101010;
-        padding: 20px 20px 20px 20px;
-        width: 800px;
-        height: fit-content;
-        border-radius: 10px;
-    }
+.rumahsakit1 {
+  margin-left: 490px;
+  margin-top: -770px;
+  font-size: 19px;
+  font-weight: 400;
+  color: black;
+}
 
-    .input-field input {
-        border-radius: 3px;
-        border: 1px solid;
-    }
+.rumahsakit2 {
+  margin-left: 490px;
+  margin-top: -10px;
+  font-size: 19px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.titlers {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.rspenjelasan {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  margin-left: 68px;
+  padding-top: 17px;
+}
+
+.keterangan {
+  margin-left: 540px;
+  margin-top: 160px;
+ 
+}
+
+
+
+.card-gg{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: initial;   
+  margin-top: -70px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-gg {
+    width: 300px !important;
+  }
+}
+
+.titlejmlah{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tbdata1 {
+  max-height: 500px;
+  overflow: auto;
+  display:inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .tbdata1 {
+    width: 280px !important;
+  }
+}
+
+.tbdata1 table {
+  border-radius: 10px !important;
+  border-spacing: 0px;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 20%);
+}
+
+.tbdata1 table th, td {
+  font-weight: 90;
+  line-height: 16px;
+  color: #000000;
+}
+
+.tbdata1 table tr:hover {
+  background-color: #F6F6F6;
+}
+
+.has-search2 {
+  position: relative;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .has-search2 {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+}
+
+.has-search2 .form-control {
+  padding-right: 2.375rem;
+  border: 2px solid #000000; 
+  border-radius: 8px;
+}
+
+.has-search2 .form-control-feedback2 {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  color: #000000;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  border: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .has-search2 .form-control-feedback2 {
+    width: 50% !important;
+  }
+}
+
+.titlers5 {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  margin-left: -50px;
+}
+
+.titlers6 {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  margin-left: -170px;
+}
+
+
+/* :::::::::::::: start desc bantuan rumah sakit ::::::::::::::*/
+
+.hijauness1 {
+  margin-left: 370px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -370px;
+} 
+
+/* :::::::::::::: end desc bantuan rumah sakit ::::::::::::::*/
+/* :::::::::::::: start home bantuan  ::::::::::::::*/
+
+.bantuan00 {
+  margin-top: -650px;
+}
+
+.bantuanini {
+ margin-top: -650px;
+}
+
+.hijaunessdd {
+  color: black;
+  margin-top: -380px;
+  margin-left: 370px;
+  font-size: 25px;
+}
+.kepokmasperiangan {
+  color: black;
+  margin-left: 350px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.bantuanpasar {
+  margin-top: -640px;
+}
+
+.piww {
+  margin-top: -380px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 360px;
+}
+
+.bantuan14 {
+  margin-top: -640px;
+}
+
+.hijaunesssia {
+  margin-left: 360px;
+  color: black;
+  font-size: 20px;
+  margin-top: -370px;
+
+}
+
+.babakan {
+  margin-top: 10px !important;
+  margin-bottom: 0px;
+}
+
+.puskesmasjudul {
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 25px;
+  margin-right: 730px  !important;
+}
+.judulbawa {
+  margin-left: -70px;
+}
+
+.puskes1 {
+  margin-left: 290px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.tamagoyaki {
+  color: white;
+  font-weight: 600;
+  margin-left: -250px;
+  margin-top: 30px;
+}
+
+.swittamagoyaki {
+  color: white;
+  font-weight: 600;
+  margin-left: -200px;
+  margin-top: 30px;
+}
+
+.total {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -56px;
+}
+
+.total2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -60px;
+}
+
+.final {
+  color: white;
+  font-weight: 600;
+  margin-left: -260px;
+  margin-top: 30px;
+}
+.total3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -62px;
+}
