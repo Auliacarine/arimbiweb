@@ -730,6 +730,12 @@ section.visual{
   font-size: 26px;
   padding-top: 40px;
 }
+@media screen and (max-width: 534px) {
+  .satu {
+    width: auto !important;
+    text-align: center !important;
+  }
+}
 
 .card-text45 {
   font-size: 18px;
@@ -753,7 +759,7 @@ section.visual{
 
 @media only screen and (max-width: 600px) {
   .limabelas{
-    width: 300px !important;
+    width: 600px !important;
   }
 }
 
@@ -1045,6 +1051,8 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   margin-left: 20px;
 }
 
+
+
 .rspenjelasan {
   font-size: 18px;
   color: black;
@@ -1171,6 +1179,14 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   margin-left: -170px;
 }
 
+.sumberdata {
+  margin-left: 750px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
 
 /* :::::::::::::: start desc bantuan rumah sakit ::::::::::::::*/
 
@@ -1292,3 +1308,4 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   font-weight: 400;
   margin-left: -62px;
 }
+
