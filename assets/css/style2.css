@@ -109,9 +109,11 @@ h5 {
       margin: 8% auto;
   }
   .namakenaikan {
-    margin-left: 20px;
+    margin-left: 10px;
     color: black;
     font-weight: 400;
+    text-align: left;
+    margin-top: 20px;
   }
 
   .namakenaikan2 {

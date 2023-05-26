@@ -45,7 +45,7 @@ body {
   
   nav .navbar-nav li a {
       color: black;
-      font-size: 18px;
+      font-size: 20px;
   }
   
   nav .navbar-nav li .nav-link:hover {
@@ -831,6 +831,7 @@ section.visual{
 
 .limaenam {
  margin-left: -14px;
+ font-weight: 600;
 }
 
 
@@ -852,7 +853,7 @@ section.visual{
 
 .hijau {
   margin-right: 2px;
- 
+  font-weight: 600;
 }
 
 .ungu {
@@ -1326,4 +1327,30 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   color: black;
   font-weight: 600;
   font-size: 18px;
+}
+
+.table-bordered {
+  background-color: #B0DEFF;
+  box-sizing: border-box !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  font-weight: 600;
+}
+.col1 {
+  color: black !important;
+  font-weight: 600;
+}
+.topik {
+  margin-left: -30px;
+}
+
+.topik2 {
+  margin-left: 28px;
+}
+
+.topik23 {
+  margin-left: -27px !important;
+}
+
+.topik55 {
+margin-left: 27px;
 }
