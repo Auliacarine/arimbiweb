@@ -1067,7 +1067,7 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
 
 .keterangan {
   margin-left: 540px;
-  margin-top: 160px;
+  margin-top: 160px !important;
  
 }
 
@@ -1311,4 +1311,19 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   font-size: 16px;
   font-weight: 400;
   margin-left: -62px;
+}
+
+.atcsvidei {
+  height: 420vh !important;
+}
+
+.atcsdalem {
+  height: 450vh !important;
+  margin-top: 20px;
+  background-color: black !important;
+}
+.jlaceh {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
 }
