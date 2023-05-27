@@ -1,720 +1,693 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Puskesmas</title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <title>KEPOKMAS TURUN</title>
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style2.css">
 
-        <!-- Google Fonts Poppins -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 
-        <!-- MDB -->
-        <link rel="stylesheet" href="assets/css/mdb.min.css" />
-
-        <!-- JS -->
-        <script src="./assets/js/script.js"></script>
-
-      </head>
-      <body>
-        <!-- Start your project here-->
-        <!--::: Navigation Bar :::-->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-scrolled bg-transparent shadow-none">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="assets/image/Logo+Arimbi.png" alt="" width="55" height="70" class="d-inline-block align-text-top"></a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-mdb-toggle="collapse"
-                data-mdb-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <i class="fas fa-bars"></i>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="home.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="dataset.html">Portal Data</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="organisasi.html">Bantuan</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbarDropdownMenuLink"
-                      role="button"
-                      data-mdb-toggle="dropdown"
-                      aria-expanded="false"
-                >
-                  Topik
-                </a>
-                <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
-                  <li>
-                    <a class="dropdown-item" href="kepokmas.html">Kepokmas</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="rumahsakit.html">RS</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="pmifix.html">Stok Darah PMI</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="atcs.html">ATCS</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="puskesmass.html">Puskesmas</a>
-              </ul>
-              </div>
-             <!--<img class="vector" width="600px" src="assets/image/Ellipse 52.png" alt=right>-->
-            </nav>
-            
-            <!--::: End Navigation Bar :::-->
-
-            <!-- Content kepokmas -->
-            <div class="container" id="intro">
-              <div class="d-flex" style="padding-top: 10%; padding-right: 5%; ">
-              </div>
-
-                <div class="d-flex">
-                  <div class="p-2 flex-grow-1 kepokmas">
-                    <h2>Daftar Harga Kebutuhan Pokok (KEPOKMAS) Kota Bandung</h2>
-                    <h5>Data kebutuhan pokok masyarakat yang ditampilkan adalah harga rata rata dari harga yang terdapat di beberapa pasar yang dikelola oleh PD. Pasar Bermanrtabat Kota Bandung</h5>
-                  </div>
-                  <div class="p-2"></div>
-                  <div class="p-2"></div>
-                </div>
+    <!-- Google Fonts Poppins -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+</head>
+<body>
+    <!--::: Navigation Bar :::-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-scrolled bg-transparent shadow-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/image/Logo+Arimbi.png" alt="" width="55" height="70" class="d-inline-block align-text-top"></a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="dataset.html">Portal Data</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="homebantuan.html">Bantuan</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+            >
+                Topik
+            </a>
+            <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                <a class="dropdown-item" href="kepokmas.html">Kepokmas</a>
+                </li>
+                <li>
+                <a class="dropdown-item" href="rumahsakit.html">Rumah Sakit</a>
+                </li>
+                <li>
+                <a class="dropdown-item" href="pmifix.html">Stok Darah PMI</a>
+                </li>
+                <li>
+                <a class="dropdown-item" href="atcs.html">ATCS</a>
+                </li>
+                <li>
+                <a class="dropdown-item" href="puskesmas.html">Puskesmas</a>
+            </ul>
             </div>
-            <!-- End Content kepokmas -->
+    </nav>
+    <!--::: End Navigation Bar :::-->
 
-            <!-- Button Keterangan dan filter -->
-            <div class="container">
-              <div class="row" style="margin-left: 40px;">
-                <div class="col-6">
-                  <h5> Keterangan:</h5>
-                  <button type="button" class="btn btn-danger btn-rounded">Turun</button>
-                  <button type="button" class="btn btn-success btn-rounded">Naik</button>
-                  <button type="button" class="btn btn-secondary btn-rounded">Stabil</button>
+    <!-- Content kepokmas -->
+    <div class="container" id="intro">
+        <div class="d-flex" style="padding-top: 10%; padding-right: 5%; ">
+        </div>
+
+          <div class="d-flex">
+            <div class="p-2 flex-grow-1 kepokmas">
+              <h2>Daftar Harga Kebutuhan Pokok (KEPOKMAS) Kota Bandung</h2>
+              <h5>Data kebutuhan pokok masyarakat yang ditampilkan adalah harga rata rata dari harga yang terdapat di beberapa pasar yang dikelola oleh PD. Pasar Bermanrtabat Kota Bandung</h5>
+            </div>
+            <div class="p-2"></div>
+            <div class="p-2"></div>
+          </div>
+      </div>
+      <!-- End Content kepokmas -->
+
+      <!-- Button Keterangan dan filter -->
+      <div class="container">
+        <div class="row" style="margin-left: -40px;">
+          <div class="col-6">
+            <h5> Keterangan:</h5>
+            <button type="button" class="btn btn-danger btn-rounded">Turun</button>
+            <button type="button" class="btn btn-success btn-rounded">Naik</button>
+            <button type="button" class="btn btn-secondary btn-rounded">Stabil</button>
+          </div>
+
+          <div class="col-6" style="padding-left: 8% !important;">
+            <h5>Filter:</h5>
+            <div class="d-flex flex-wrap">
+              <div class="p-2">
+                <form action="/action_page.php">
+                  <input type="date" id="birthday" name="birthday">
+                </form>
+              </div>
+              <div class="p-2"><input type="text" placeholder="Seluruh Pasar" style="width: 138px;"></div>
+              <div class="p-2">
+                <div class="btn-group shadow-0">
+                  <button type="button" class="btn btn-light dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Urutkan
+                  </button>
+                  <ul class="dropdown-menu" id="level">
+                    <li><a class="dropdown-item" href="kepokmasnaik.html">Naik</a></li>
+                    <li><a class="dropdown-item" href="kepokmasturun.html">Turun</a></li>
+                    <li><a class="dropdown-item" href="kepokmasstabil.html">Stabil</a></li>
+                  </ul>
                 </div>
-
-                <div class="col-6" style="padding-left: 8% !important;">
-                  <h5>Filter:</h5>
-                  <div class="d-flex flex-wrap">
-                    <div class="p-2">
-                      <form action="/action_page.php">
-                        <input type="date" id="birthday" name="birthday">
-                      </form>
-                    </div>
-                    <div class="p-2"><input type="text" placeholder="Seluruh Pasar" style="width: 138px;"></div>
-                    <div class="p-2">
-                      <div class="btn-group shadow-0">
-                        <button type="button" class="btn btn-light dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
-                          Urutkan
-                        </button>
-                        <ul class="dropdown-menu" id="level">
-                          <li><a class="dropdown-item" href="kepokmasnaik.html">Naik</a></li>
-                          <li><a class="dropdown-item" href="kepokmasturun.html">Turun</a></li>
-                          <li><a class="dropdown-item" href="kepokmasstabil.html">Stabil</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="btn-kepokmas" style="float: right !important; padding-right: 5%;">
-                    <button type="button" class="btn btn-info">DSS Kepokmas</button>
-                  </div>
-                </div>
-
               </div>
             </div>
-            <!-- End Button Keterangan dan filter -->
 
-            <!-- Pop up -->
-            <div id="popup">
-              <div class="window">
-                  <a href="#" class="close-button" title="Close">X</a>
-                      <!-- Styles -->
-                      <style>
-                        #chartdiv {
-                          width: 100%;
-                          height: 350px;
-                          max-width: 100%
-                        }
-                      </style>
-                        
-                        <!-- Resources -->
-                        <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-                        <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
-                        <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-                        
-                        <!-- Chart code -->
-                        <script>
-                        am5.ready(function() {
-                        
-                        // Create root element
-                        // https://www.amcharts.com/docs/v5/getting-started/#Root_element
-                        var root = am5.Root.new("chartdiv");
-                        
-                        
-                        // Set themes
-                        // https://www.amcharts.com/docs/v5/concepts/themes/
-                        root.setThemes([
-                          am5themes_Animated.new(root)
-                        ]);
-                        
-                        
-                        // Create chart
-                        // https://www.amcharts.com/docs/v5/charts/xy-chart/
-                        var chart = root.container.children.push(am5xy.XYChart.new(root, {
-                          panX: true,
-                          panY: true,
-                          wheelX: "panX",
-                          wheelY: "zoomX",
-                          pinchZoomX:true
-                        }));
-                        
-                        
-                        // Add cursor
-                        // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
-                        var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {
-                          behavior: "none"
-                        }));
-                        cursor.lineY.set("visible", false);
-                        
-                        
-                        // Generate random data
-                        var date = new Date();
-                        date.setHours(0, 0, 0, 0);
-                        var value = 100;
-                        
-                        function generateData() {
-                          value = Math.round((Math.random() * 10 - 5) + value);
-                          am5.time.add(date, "day", 1);
-                          return {
-                            date: date.getTime(),
-                            value: value
-                          };
-                        }
-                        
-                        function generateDatas(count) {
-                          var data = [];
-                          for (var i = 0; i < count; ++i) {
-                            data.push(generateData());
-                          }
-                          return data;
-                        }
-                        
-                        
-                        // Create axes
-                        // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
-                        var xAxis = chart.xAxes.push(am5xy.DateAxis.new(root, {
-                          maxDeviation: 0.2,
-                          baseInterval: {
-                            timeUnit: "day",
-                            count: 1
-                          },
-                          renderer: am5xy.AxisRendererX.new(root, {}),
-                          tooltip: am5.Tooltip.new(root, {})
-                        }));
-                        
-                        var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
-                          renderer: am5xy.AxisRendererY.new(root, {})
-                        }));
-                        
-                        
-                        // Add series
-                        // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
-                        var series = chart.series.push(am5xy.LineSeries.new(root, {
-                          name: "Series",
-                          xAxis: xAxis,
-                          yAxis: yAxis,
-                          valueYField: "value",
-                          valueXField: "date",
-                          tooltip: am5.Tooltip.new(root, {
-                            labelText: "{valueY}"
-                          })
-                        }));
-                        
-                        
-                        // Add scrollbar
-                        // https://www.amcharts.com/docs/v5/charts/xy-chart/scrollbars/
-                        chart.set("scrollbarX", am5.Scrollbar.new(root, {
-                          orientation: "horizontal"
-                        }));
-                        
-                        
-                        // Set data
-                        var data = generateDatas(1200);
-                        series.data.setAll(data);
-                        
-                        
-                        // Make stuff animate on load
-                        // https://www.amcharts.com/docs/v5/concepts/animations/
-                        series.appear(1000);
-                        chart.appear(1000, 100);
-                        
-                        }); // end am5.ready()
-                        </script>
-                        
-                        <!-- HTML -->
-                        <div id="chartdiv"></div>
-                </div>
+            <div class="btn-kepokmas" style="float: right !important; padding-right: 5%;">
+              <a href="dss.html"><button type="button" class="btn btn-info">DSS Kepokmas</button></a>
             </div>
-            <!-- End Pop Up -->
+          </div>
 
-            <!-- Card kepokmas -->
-            <div class="container" style="padding-top: 3%;">
-              <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/daging sapi.jpg" alt="Daging Sapi" width="120px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Daging Sapi</p>
-                          <p class="card-text">Rp. 140.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
-                        <a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/daging ayam ras.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Daging Ayam</p>
-                          <p class="card-text">Rp. 35.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
-                        <a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/cabe hijau.jpg" alt="Cabe Hijau" width="125px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Cabe Hijau</p>
-                          <p class="card-text">Rp. 30.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
-                        <a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/cabe kriting.jpg" alt="Cabe Kriting" width="125px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Cabe Kriting</p>
-                          <p class="card-text">Rp. 30.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/cabe merah.jpg" alt="Cabe Merah" width="125px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Cabe Merah</p>
-                          <p class="card-text">Rp. 30.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/cabe rawit.jpg" alt="Cabe Rawit" width="125px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Cabe Rawit</p>
-                          <p class="card-text">Rp. 30.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/garem 200gr.jpg" alt="Garam 200gr" width="125px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Garam 200gr</p>
-                          <p class="card-text">Rp. 5.000/gr</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/garem bata.jpg" alt="Daging Sapi" width="125px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Garem Bata</p>
-                          <p class="card-text">Rp. 10.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <!-- End Button Keterangan dan filter -->
 
                 
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/gulapasir.jpg" alt="Daging Sapi" width="130px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Gula Pasir</p>
-                          <p class="card-text">Rp. 22.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
+      <!-- End Pop Up -->
+      <!-- Card kepokmas -->
+      <div class="container" style="padding-top: 3%;">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/beras medium.jpg" alt="Daging Sapi" width="120px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Beras Medium</p>
+                    <p class="card-text">Rp. 80.000/ Kg</p>
                   </div>
                 </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/ikan kembung.jpg" alt="Daging Sapi" width="130px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Ikan Kembung</p>
-                          <p class="card-text">Rp. 14.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-success">Turun</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/ikan olahan.jpg" alt="Daging Sapi" width="130px" style="padding-left: 20px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Ikan Olahan</p>
-                          <p class="card-text">Rp. 20.000/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card" style="width: 100%;">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0">
-                        <img src="./assets/image/indomi ayam bwang.jpg" alt="Daging Sapi" width="100px" style="padding-left: 20px; padding-top: 10px;">
-                      </div>
-                      <div class="flex-grow">
-                        <div class="card-body">
-                          <p class="card-title">Indomie Ayam Bawang</p>
-                          <p class="card-text">Rp. 3.500/ Kg</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                    <div class="d-flex flex-nowrap">
-                      <div class="order-2 p-2"><button type="button" class="btn btn-danger">Naik</button></div>
-                      <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-                
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+                  <a href="#popup">Lihat</a></button></div>
+              </div>
               </div>
             </div>
-            <!-- End card kepokmas -->
+          </div>
 
-            <!-- Pagination -->
-            <div class="container" style="padding-top: 2%;">
-              <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                  <li class="page-item disabled">  
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="kepokmas2.html">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <!-- End Pagination -->
-
-            <section class="rumahh1">
-              <div class="">
-                <h1 class="sumberdata1">
-                  (sumber data: Direktorat Jenderal Pelayanan Kesehatan [SI RANAP])
-                </h1>
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/beras premiun.jpg" alt="Daging Sapi" width="110px" style="padding-left: 20px;">
                 </div>
-                </section>
-    
-<!-- Footer (Disamakan dengan yang open data) -->
-<footer class="text-center text-lg-start text-white" style="position:relative; background-color: #F0EEEE;">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-  <!-- Section: Links -->
-  <section class="">
-  <!--Grid row-->
-  <div class="ft">
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3 mb-4 mb-md-0">
-      <a class="navbar-brand" href="#"><img src="img/logo-opendata.png" alt="" width="70" height="59" class="d-inline-block align-text-top" id="logo-open-data"></a>
-    </div>
-    <!-- Grid column -->
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Beras Premium</p>
+                    <p class="card-text">Rp. 90.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+                  <a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    <hr class="w-100 clearfix d-md-none" />
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/bimoli.jpg" alt="Cabe Hijau" width="138px"  style="padding-left: 20px; margin-top: 10px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Bimoli</p>
+                    <p class="card-text">Rp. 20.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark">
+                  <a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-      <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">Alamat</h6>
-      <p>
-        <a class="text-black">Jl. Wastukencana No.2, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117</a>
-      </p>
-      <p>
-    </div>
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/ayam kamoung.jpg" alt="Cabe Kriting" width="125px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Ayam Kampung</p>
+                    <p class="card-text">Rp. 40.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-      <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">Open Data Kota Bandung</h6>
-      <p>
-        <a href="#" class="text-black">Tentang Kami</a>
-      </p>
-      <p>
-        <a href="#" class="text-black">Kebijakan Privasi</a>
-      </p>
-      <p>
-        <a href="#" class="text-black">Bantuan</a>
-      </p>
-    </div>
-    <!-- Grid column -->
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/bawang merah.jpg" alt="Cabe Merah" width="125px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Bawang Merah</p>
+                    <p class="card-text">Rp. 10.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    <hr class="w-100 clearfix d-md-none" />
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/bawang putih.jpg" alt="Cabe Rawit" width="125px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Bawang Putih</p>
+                    <p class="card-text">Rp. 30.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-      <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">
-        Atribusi
-      </h6>
-      <p>
-        <a href="#!"><i class="fab fa-google"></i> bdg.data</a>
-      </p>
-      <p>
-        <a href="#!"><i class="fab fa-instagram"></i> data@bandung.go.id</a>
-      </p>
-    </div>
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/jjaagung.jpg" alt="Garam 200gr" width="160px " style="padding-left: 10px; margin-top: 10px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Jagung</p>
+                    <p class="card-text">Rp. 5.000/gr</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-danger">Turun</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Grid column 
-    <hr class="w-100 clearfix d-md-none" />
-    Grid column -->
-  </div>
-  <!--Grid row-->
-  <div class="row">
-    <div class="col-md-12 col-lg-12 col-xl-12 mx-auto" style="padding: 0px;">
-      <div class="mt-4">
-        <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitra.png); color:#D9D9D9; border-radius: 5px 5px;"></i></a>
-        <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitra.png); color:#D9D9D9; border-radius: 5px 5px;"></i></a>
-        <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitra.png); color:#D9D9D9; border-radius: 5px 5px;"></i></a>
-      </div>
-    </div>
-  </div>
-  </section>
-  <!-- Section: Links -->
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/kacang ijo.jpg" alt="Daging Sapi" width="130px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Kacang Ijo</p>
+                    <p class="card-text">Rp. 6.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-danger">Turun</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
 
-  <hr class="my-3">
-
-  <!-- Section: Copyright -->
-  <section class="p-3 pt-0">
-  <div class="row d-flex align-items-center">
-    <!-- Grid column -->
-    <div class="col-ms text-center ">
-      <!-- Copyright -->
-      <div class="text-black p-3">
-        © 2020 Copyright
-        Portal Data Kota Bandung 2022. All rights reserved
-      </div>
-      <!-- Copyright -->
-    </div>
-    <!-- Grid column -->
-  </div>
-  </section>
-  <!-- Section: Copyright -->
-  </div>
-  <!-- Grid container -->
-</footer>
-<!-- End Footer -->
-
- <!-- MDB -->
- <script type="text/javascript" src="js/mdb.min.js"></script>
-
- <!-- Custom scripts -->
- <script type="text/javascript"></script>
-
-
-          <!-- Java Script -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
-
-          <script type="text/javascript">
-              $(function() {
-                  $('#datepicker').datepicker();
-              });
-          </script>
           
-          <!-- End your project here-->
-    
-        <!-- MDB -->
-        <script type="text/javascript" src="assets/js/mdb.min.js"></script>
-        <!-- Custom scripts -->
-        <script type="text/javascript"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    
-        <!-- Custom Navbar Background On Scroll  -->
-        <script>
-          $(window).scroll(function(){
-            $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
-            });
-    
-            $(document).ready(function() {
-              $('#myCarousel').carousel({
-                interval: 10000
-            })
-          });
-        </script>
-        <!-- Custom Navbar Background On Scroll  -->
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/kacang tanah.jpg" alt="Daging Sapi" width="145px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Kacang Tanah</p>
+                    <p class="card-text">Rp. 10.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/kedelai.jpg" alt="Daging Sapi" width="160px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Kedelai</p>
+                    <p class="card-text">Rp. 14.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-success">Naik</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/kentang.jpg" alt="Daging Sapi" width="160px" style="padding-left: 10px; padding-top: 30px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Kentang</p>
+                    <p class="card-text">Rp. 20.000/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-danger">Turun</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 100%;">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img src="./assets/image/indomi ayam bwang.jpg" alt="Daging Sapi" width="105px" style="padding-left: 20px;">
+                </div>
+                <div class="flex-grow">
+                  <div class="card-body">
+                    <p class="card-title">Indomie Ayam Bawang</p>
+                    <p class="card-text">Rp. 3.500/ Kg</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+              <div class="d-flex flex-nowrap">
+                <div class="order-2 p-2"><button type="button" class="btn btn-danger">Turun</button></div>
+                <div class="order-3 p-2"><button type="button" class="btn btn-light" data-mdb-ripple-color="dark"><a href="#popup">Lihat</a></button></div>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <!-- End card kepokmas -->
+
+      <!-- Pagination -->
+      <div class="container" style="padding-top: 2%;">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">  
+            </li>
+            <li class="page-item"><a class="page-link" href="kepokmas.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="kepokmas2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- End Pagination -->
+      
+      <section class="rumahh1">
+        <div class="">
+          <h1 class="sumberdata1">
+            (sumber data: PD. Pasar Bermartabat Kota Bandung)
+          </h1>
+          </div>
+          </section>
+          <!-- Pop up -->
+      <div id="popup">
+        <div class="window">
+            <a href="#" class="close-button" title="Close">X</a>
+                <!-- Styles -->
+                <style>
+                  #chartdiv {
+                    width: 100%;
+                    height: 350px;
+                    max-width: 100%
+                  }
+                </style>
+                  
+                  <!-- Resources -->
+                  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+                  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+                  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+                  
+                  <!-- Chart code -->
+                  <script>
+                  am5.ready(function() {
+                  
+                  // Create root element
+                  // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+                  var root = am5.Root.new("chartdiv");
+                  
+                  
+                  // Set themes
+                  // https://www.amcharts.com/docs/v5/concepts/themes/
+                  root.setThemes([
+                    am5themes_Animated.new(root)
+                  ]);
+                  
+                  
+                  // Create chart
+                  // https://www.amcharts.com/docs/v5/charts/xy-chart/
+                  var chart = root.container.children.push(am5xy.XYChart.new(root, {
+                    panX: true,
+                    panY: true,
+                    wheelX: "panX",
+                    wheelY: "zoomX",
+                    pinchZoomX:true
+                  }));
+                  
+                  
+                  // Add cursor
+                  // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+                  var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {
+                    behavior: "none"
+                  }));
+                  cursor.lineY.set("visible", false);
+                  
+                  
+                  // Generate random data
+                  var date = new Date();
+                  date.setHours(0, 0, 0, 0);
+                  var value = 100;
+                  
+                  function generateData() {
+                    value = Math.round((Math.random() * 10 - 5) + value);
+                    am5.time.add(date, "day", 1);
+                    return {
+                      date: date.getTime(),
+                      value: value
+                    };
+                  }
+                  
+                  function generateDatas(count) {
+                    var data = [];
+                    for (var i = 0; i < count; ++i) {
+                      data.push(generateData());
+                    }
+                    return data;
+                  }
+                  
+                  
+                  // Create axes
+                  // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+                  var xAxis = chart.xAxes.push(am5xy.DateAxis.new(root, {
+                    maxDeviation: 0.2,
+                    baseInterval: {
+                      timeUnit: "day",
+                      count: 1
+                    },
+                    renderer: am5xy.AxisRendererX.new(root, {}),
+                    tooltip: am5.Tooltip.new(root, {})
+                  }));
+                  
+                  var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+                    renderer: am5xy.AxisRendererY.new(root, {})
+                  }));
+                  
+                  
+                  // Add series
+                  // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+                  var series = chart.series.push(am5xy.LineSeries.new(root, {
+                    name: "Series",
+                    xAxis: xAxis,
+                    yAxis: yAxis,
+                    valueYField: "value",
+                    valueXField: "date",
+                    tooltip: am5.Tooltip.new(root, {
+                      labelText: "{valueY}"
+                    })
+                  }));
+                  
+                  
+                  // Add scrollbar
+                  // https://www.amcharts.com/docs/v5/charts/xy-chart/scrollbars/
+                  chart.set("scrollbarX", am5.Scrollbar.new(root, {
+                    orientation: "horizontal"
+                  }));
+                  
+                  
+                  // Set data
+                  var data = generateDatas(1200);
+                  series.data.setAll(data);
+                  
+                  
+                  // Make stuff animate on load
+                  // https://www.amcharts.com/docs/v5/concepts/animations/
+                  series.appear(1000);
+                  chart.appear(1000, 100);
+                  
+                  }); // end am5.ready()
+                  </script>
+
+                  <!-- HTML -->
+                  <div id="chartdiv"></div>
+                <div class="kenaikan">
+                    <p class="namakenaikan">
+                     <b>Perkiraan dan prediksi harga komoditas bulan Januari sampai Juli tahun 2023 dengan update per bulan </b>
+          </div>
+      </div>
+    </div>
+
+          <!--::: Section FOOTER :::-->
+      <footer class="text-center text-lg-start text-white" style="position:relative; background-color: #F0EEEE;">
+        <!-- Grid container -->
+       <div class="container p-4 pb-0">
+           <!-- Section: Links -->
+           <section class="">
+           <!--Grid row-->
+           <div class="row">
+             <!-- Grid column -->
+             <div class="col-md-3 col-lg-6 col-xl-3 mx-auto mt-3 mb-4 mb-md-0">
+               <a class="navbar-brand" href="#"><img src="assets/image/logoopendata.png" alt="" width="70" height="59" class="d-inline-block align-text-top"></a>
+             </div>
+             <!-- Grid column -->
+       
+             <hr class="w-100 clearfix d-md-none" />
+     
+             <!-- Grid column -->
+             <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+               <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">Alamat</h6>
+               <p>
+                 <a class="text-black">Jl. Wastukencana No.2, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117</a>
+               </p>
+               <p>
+             </div>
+       
+             <!-- Grid column -->
+             <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+               <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">Open Data Kota Bandung</h6>
+               <p>
+                 <a href="#" class="text-black">Tentang Kami</a>
+               </p>
+               <p>
+                 <a href="#" class="text-black">Kebijakan Privasi</a>
+               </p>
+               <p>
+                 <a href="#" class="text-black">Bantuan</a>
+               </p>
+             </div>
+             <!-- Grid column -->
+       
+             <hr class="w-100 clearfix d-md-none" />
+       
+             <!-- Grid column -->
+             <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
+               <h6 class="text-black mb-4 font-weight-bold" style="font-weight: 700;">
+                 Atribusi
+               </h6>
+               <p>
+                 <a href="#!"><i class="fab fa-google"></i> bdg.data</a>
+               </p>
+               <p>
+                 <a href="#!"><i class="fab fa-instagram"></i> data@bandung.go.id</a>
+               </p>
+             </div>
+       
+             <!-- Grid column 
+             <hr class="w-100 clearfix d-md-none" />
+             Grid column -->
+           </div>
+           <!--Grid row-->
+           <div class="row">
+             <div class="col-md-12 col-lg-12 col-xl-12 mx-auto" style="padding: 0px;">
+               <div class="mt-4">
+                <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitrabdg.jpg); color:#D9D9D9; border-radius: 5px 5px; background-size: cover;"></i></a>
+                <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitradsk.jpg); color:#D9D9D9; border-radius: 5px 5px; background-size: cover;"></i></a>
+                <a href="#" type="button" class="btn btn-floating btn-lg" style="background: url(assets/image/mitrasd.jpg); color:#D9D9D9; border-radius: 5px 5px; background-size: cover;"></i></a>
+               </div>
+             </div>
+           </div>
+           </section>
+           <!-- Section: Links -->
+     
+           <hr class="my-3">
+       
+           <!-- Section: Copyright -->
+           <section class="p-3 pt-0">
+           <div class="row d-flex align-items-center">
+             <!-- Grid column -->
+             <div class="col-ms text-center ">
+               <!-- Copyright -->
+               <div class="text-black p-3">
+                 © 2020 Copyright
+                 Portal Data Kota Bandung 2022. All rights reserved
+               </div>
+               <!-- Copyright -->
+             </div>
+             <!-- Grid column -->
+           </div>
+           </section>
+           <!-- Section: Copyright -->
+           </div>
+           <!-- Grid container -->
+         </footer>
+         <!--::: End Section FOOTER :::-->
+     
+         <!-- End your project here-->
+     
+         <!-- MDB -->
+         <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+         <!-- Custom scripts -->
+         <script type="text/javascript"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     
+         <!-- Custom Navbar Background On Scroll  -->
+         <script>
+           $(window).scroll(function(){
+             $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+             });
+     
+             $(document).ready(function() {
+               $('#myCarousel').carousel({
+                 interval: 10000
+             })
+           });
+         </script>
+         <!-- Custom Navbar Background On Scroll  -->
+     
     
       </body>
     </html>
-
-
-
-    
