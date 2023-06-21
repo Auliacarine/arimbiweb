@@ -1083,6 +1083,7 @@ nav ul.pagination li.page-item a.page-link:hover:not(.active){
   background-color: #fff;
   background-clip: initial;   
   margin-top: -70px !important;
+  
 }
 
 @media only screen and (max-width: 600px) {

@@ -82,7 +82,7 @@ h5 {
   
   .kepokmas {
   color: black;
-  font-size: 25px;
+  font-size: 20px !important;
   font-weight: 800 !important;
   margin-left: -65px;
   }
@@ -176,6 +176,7 @@ h5 {
   .babakan {
     color: black;
     font-weight: 600;
+    font-size: 20px;
   }
 
   .pussar {
@@ -321,4 +322,9 @@ h5 {
 .tamagoyakii {
   margin-left: 150px;
   margin-bottom: 100px !important;
+}
+
+.dd-menu {
+  max-height: 150px;
+  overflow-y: auto;
 }
